@@ -1,9 +1,8 @@
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Vue 3 + Node
 
 ## Baixar o projeto
 Primeiro passo, clonar o projeto:
+
 ``` bash
 # Clonar
 git clone https://github.com/mailsondias/mb-signup.git
@@ -12,7 +11,7 @@ git clone https://github.com/mailsondias/mb-signup.git
 cd mb-signup
 ```
 
-## Configuração - Vue
+## Vue
 
 ``` bash
 # Instalar dependências do projeto
@@ -22,7 +21,7 @@ npm install
 npm run build
 ```
 
-## Configuração - Node
+## Node
 
 ``` bash
 # Acessar
@@ -36,4 +35,11 @@ npm run dev
 
 # Acessar url
 https://localhost:3000/
+```
+
+## Users
+
+```bash
+# Acessar url
+https://localhost:3000/users
 ```
