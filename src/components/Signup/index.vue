@@ -191,6 +191,7 @@ export default {
 
         if (response.status === 201) {
           alert(result.message)
+          location.reload()
         }
 
       } catch (error) {
@@ -213,6 +214,18 @@ export default {
         created_at: null,
         corporate_phone: null,
         passcode: null
+      }
+
+      this.isValidStep = {
+        1: {
+          isValid: false
+        },
+        2: {
+          isValid: false
+        },
+        3: {
+          isValid: false
+        },
       }
     },
   }
